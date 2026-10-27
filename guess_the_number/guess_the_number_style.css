@@ -1,0 +1,35 @@
+@import url(../global/global_styles.css);
+
+/*Top Bar*/
+
+    .top_bar {
+        position: flex;
+        top: 3px;
+        left: 3px;
+        margin-bottom: 3px;
+    }
+
+    p {
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+
+    hr {
+        margin-bottom: 3px;
+        margin-top: 3px;
+    }
+
+/*Settings Area*/
+
+    .settings_area_guess_the_number {
+         border: 3px solid black;
+         padding: 3px;
+         margin-top: 3px;
+    }
+
+    .settings_area_guess_the_number h3 {
+        margin-top: 0px;
+        margin-bottom: 6.5px;
+    }
+
+

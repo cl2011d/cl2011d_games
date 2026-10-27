@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../global/global_styles.css">
+    <link rel="stylesheet" href="guess_the_number_style.css">
+    
+    <title>Guess The Number</title>
+</head>
+<body>
+    <div class="top_bar">
+        <span>Guesses: </span><span id="guesses_display_guess_the_number">0</span><span> / </span><span>Guesses Left: </span><span id="guesses_left_display_guess_the_number">25</span><span> | </span><span>Won Games: </span><span id="won_games_display_guess_the_number">0</span> / <span>Lost Games: </span><span id="lost_games_display_guess_the_number">0</span>
+
+        <hr>
+
+    </div>
+    <div class="top_left">
+        <button>X</button>
+    </div>
+    <div class="game_area">
+        <p id="higher_or_lower_than_display_guess_the_number">Enter A Guess!</p>
+        <input type="text" id="input_display">
+        <button id="submit_guess_guess_the_number">Submit Guess</button>
+    </div>
+
+    <hr>
+
+    <div class="bottom_buttons">
+        <button id="settings_guess_the_number">Settings</button>
+    </div>
+    <div id="settings_area_guess_the_number" class="settings_area_guess_the_number" hidden>
+        <h3>Game Settings</h3>
+
+        <button>Erase Game Data</button>
+        
+        <br><hr>
+
+        <button id="close_settings_guess_the_number" hidden>Close Settings</button>
+        <button id="save_settings_guess_the_number">Close Settings</button>
+    </div>
+
+
+</body>
+    <script src="../global/global_script.js"></script>
+    <script src="guess_the_number_script.js"></script>
+</html>

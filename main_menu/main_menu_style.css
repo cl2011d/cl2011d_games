@@ -1,0 +1,39 @@
+@import url(../global/global_styles.css);
+    
+/*Button Grid*/
+
+    .button_grid {
+        width: calc(100vw - 6px); 
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 3px;
+        margin: 3px; 
+        padding: 0;
+    }
+
+    .button_grid button {
+        width: 100%; 
+    }
+
+/*Bottom Button*/
+ 
+    .back_button_bottom_area {
+      width: calc(100vw - 6px); 
+      margin: 3px;
+      padding: 0;
+    }
+    
+    .back_button_bottom_area button {
+        display: block; 
+        margin: 3px auto; 
+        width: fit-content;
+        max-width: 100%;
+
+        background-color: var(--disabled_background-color);
+        color: var(--disabled_color);
+        border: var(--disabled_border);
+        cursor: var(--disabled_cursor);
+        pointer-events: var(--disabled_pointer-events);
+        opacity: var(--disabled_opacity);
+    }
+
